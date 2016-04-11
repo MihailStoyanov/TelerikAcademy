@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Quotes in Strings", "07. Quotes in Strings\07. Quotes in Strings.csproj", "{01F5C46E-F7B8-4AE5-A0BB-B65571999D70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Comparing Floats", "13. Comparing Floats\13. Comparing Floats.csproj", "{0E235CF6-710E-4CC9-8277-B0F2AE85E9A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Print the ASCII Table", "14. Print the ASCII Table\14. Print the ASCII Table.csproj", "{28BA0BC3-A7C8-48D9-8113-9C3281822376}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{01F5C46E-F7B8-4AE5-A0BB-B65571999D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01F5C46E-F7B8-4AE5-A0BB-B65571999D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01F5C46E-F7B8-4AE5-A0BB-B65571999D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E235CF6-710E-4CC9-8277-B0F2AE85E9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E235CF6-710E-4CC9-8277-B0F2AE85E9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E235CF6-710E-4CC9-8277-B0F2AE85E9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E235CF6-710E-4CC9-8277-B0F2AE85E9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BA0BC3-A7C8-48D9-8113-9C3281822376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BA0BC3-A7C8-48D9-8113-9C3281822376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BA0BC3-A7C8-48D9-8113-9C3281822376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BA0BC3-A7C8-48D9-8113-9C3281822376}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
