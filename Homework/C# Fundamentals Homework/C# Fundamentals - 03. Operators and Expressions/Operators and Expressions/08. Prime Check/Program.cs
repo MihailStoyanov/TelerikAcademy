@@ -11,37 +11,28 @@ namespace _08.Prime_Check
         static void Main(string[] args)
         {
             int N = int.Parse(Console.ReadLine());
-
-
-
-            if (N >= 2)
-            {
-                if (N == 2)
-                {
-                    Console.WriteLine("true");
-                }
-                else
-                {
-                    for (int i = 2; i < N; i++)
-                    {
-                        if (N % i != 0 && N % i == 0)
-                        {
-                            Console.WriteLine("true");
-                            break;
-                        }
-                        else
-                        {
-                            Console.WriteLine("false");
-                            break;
-                        }
-                    }
-                }
-            }
-            else
+            if (N <= 1)
             {
                 Console.WriteLine("false");
             }
-
+            else
+            {
+                int Remainder;
+                for (int i = 2; i <= N; i++)
+                {
+                    Remainder = N % i;
+                    if (Remainder == 0 && i  == N)
+                    {
+                        Console.WriteLine("true");
+                        break;
+                    }
+                    if (Remainder == 0 && i != N)
+                    {
+                        Console.WriteLine("false");
+                        break;
+                    }
+                }
+            }
         }
     }
 }
